@@ -8,18 +8,15 @@ body {
   flex-direction:column; 
   display: flex;
 }
-
 img {
   width: 600px;
 }
-
 button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
   background: #eee;
 }
-
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
@@ -36,8 +33,10 @@ input {
   margin-right: auto;
   list-style-type:none;
   font-size: xx-small;
-  padding: 1vw;
   text-decoration: none;
+  display: flex;
+  justify-content:space-between;
+  gap: 5px;
 }
 .right-links {
   margin-left: auto;
@@ -45,13 +44,13 @@ input {
   font-size: xx-small;
   padding: 1vw;
   text-decoration: none;
+  display: flex;
+  justify-content:space-between;
+  gap: 5px;
 }
 .footer {
   display: flex;
   margin-top: auto;
   padding: 1vw;
   background-color: #eeeeee;
-}
-li {
-  text-decoration: none;
 }
