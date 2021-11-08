@@ -19,7 +19,7 @@ button {
   border-radius: 8px;
   background: #eee;
   margin: 5px;
-  padding: 5px;
+  padding: 10px;
 }
 input {
   border: 1px solid #ddd;
@@ -35,7 +35,6 @@ input {
   padding: 1vw;
 }
 .left-links {
-  margin-right: auto;
   list-style-type:none;
   font-size: xx-small;
   text-decoration: none;
