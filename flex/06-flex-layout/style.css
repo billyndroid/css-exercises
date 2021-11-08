@@ -11,7 +11,6 @@ body {
 img {
   width: 600px;
   margin: 10px;
-
 }
 button {
   font-family: Roboto, sans-serif;
@@ -35,6 +34,7 @@ input {
   padding: 1vw;
 }
 .left-links {
+  margin-right: auto;
   list-style-type:none;
   font-size: xx-small;
   text-decoration: none;
@@ -57,8 +57,9 @@ input {
 .footer {
   display: flex;
   margin-top: auto;
-  padding: 1vw;
+  padding: 2px;
   background-color: #eeeeee;
+  
 }
 .content {
   display: flex;
@@ -66,9 +67,8 @@ input {
   justify-content: center;
   flex-direction: column;
 }
-ul {
+a {
+  list-style: none;
   text-decoration: none;
-}
-li {
-  text-decoration: none;
+  color: black;
 }
