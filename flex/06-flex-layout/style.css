@@ -66,3 +66,9 @@ input {
   justify-content: center;
   flex-direction: column;
 }
+ul {
+  text-decoration: none;
+}
+li {
+  text-decoration: none;
+}
